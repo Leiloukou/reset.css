@@ -133,7 +133,8 @@ table {
 *,
 *:before,
 *:after {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 	text-decoration: none;
 }
 
@@ -199,7 +200,8 @@ p {
 a,
 a:visited {
 	color: #3d3df3;
-	text-decoration: underline currentColor;
+	-webkit-text-decoration: underline currentColor;
+	        text-decoration: underline currentColor;
 }
 
 button {
